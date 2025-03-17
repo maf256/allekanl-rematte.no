@@ -29,11 +29,12 @@ export default function Home({ language, theme }) {
           <h5>{langData.h5}</h5>
           <p>{langData.p}</p>
           <p>{langData.p1}</p>
+          <p>{langData.p2}</p>
           <SocialMediaLinks />
           <SocialShare
-            url="https://sitedesign.no"
-            title="Webdesign og Webutvikling i Oslo - Majid Askarifarsangi"
-            description="Profesjonell webutvikling og webdesign av Majid Askarifarsangi i Oslo"
+            url="https://allekanlærematte.no/"
+            title="Pensjonert matematikklærer med lang erfaring og personlig oppfølgingi"
+            description="Privatundervisning som gjør matematikk forståelig og spennende"
           />
         </Div>
       </Main>

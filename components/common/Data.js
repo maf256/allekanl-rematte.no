@@ -93,6 +93,7 @@ export const Data = {
       h5: 'Jeg hjelper elever med å mestre matematikk.',
       p: 'Jeg tilbyr privatundervisning i matematikk, skreddersydd etter hver elevs behov, og sørger for at elevene får økt selvtillit og mestringsfølelse i faget.',
       p1: 'Med mange års erfaring som matematikklærer har jeg spesialisert meg på å gjøre komplekse matematiske konsepter enkle og forståelige. Gjennom personlig tilpasset undervisning hjelper jeg elevene mine med å oppnå bedre resultater og større glede av matematikk. Enten du trenger hjelp med grunnleggende matematikk eller avanserte emner, tilbyr jeg undervisning tilpasset akkurat dine behov.',
+      p2: 'Pris. 400 kr pr. 50min.',
     },
     en: {
       name: 'Johny Alnæs',
@@ -103,6 +104,7 @@ export const Data = {
       h5: 'I help students master mathematics.',
       p: 'I offer personalized math tutoring tailored to each student’s needs, helping students gain confidence and achieve success in mathematics.',
       p1: 'With many years of experience as a math teacher, I specialize in making complex mathematical concepts clear and easy to understand. Through personalized tutoring sessions, I support my students in achieving better results and finding enjoyment in math. Whether you need assistance with basic mathematics or advanced topics, I provide teaching tailored specifically to your needs.',
+      p2: 'Pris. 400 kr pr. 50min.',
     },
   },
   about: {

@@ -14,28 +14,28 @@ import {
 } from './SocialShareButtons'
 export default function SocialMediaLinks() {
   const socialLinks = [
+    // {
+    //   href: 'https://www.linkedin.com/in/farsangi',
+    //   icon: <FaLinkedin />,
+    //   name: 'LinkedIn',
+    // },
+    // {
+    //   href: 'https://github.com/maf256',
+    //   icon: <FaGithub />,
+    //   name: 'GitHub',
+    // },
     {
-      href: 'https://www.linkedin.com/in/farsangi',
-      icon: <FaLinkedin />,
-      name: 'LinkedIn',
-    },
-    {
-      href: 'https://github.com/maf256',
-      icon: <FaGithub />,
-      name: 'GitHub',
-    },
-    {
-      href: 'tel:+4740189111',
+      href: 'tel:+4745208877',
       icon: <FaPhone />,
       name: 'Phone',
     },
+    // {
+    //   href: 'https://wa.me/+4740189111',
+    //   icon: <FaWhatsapp />,
+    //   name: 'WhatsApp',
+    // },
     {
-      href: 'https://wa.me/+4740189111',
-      icon: <FaWhatsapp />,
-      name: 'WhatsApp',
-    },
-    {
-      href: 'mailto:majid@sitedesign.no',
+      href: 'mailto:johny.alnas@gmail.com',
       icon: <FaEnvelope />,
       name: 'Email',
     },
