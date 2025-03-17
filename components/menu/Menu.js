@@ -30,7 +30,7 @@ const Menu = ({
         <h5>
           © {new Date().getFullYear()} Webutvikler | Webdesign by{' '}
           <a
-            href="https://www.linkedin.com/in/farsangi/"
+            href="https://www.sitedesign.no"
             target="_blank"
             rel="noopener noreferrer"
             title="Majid Farsangifarsangi - Webdesign & Development"
