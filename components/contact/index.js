@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { Data } from '../common/Data'
-import { motion } from 'framer-motion'
 import {
   Iframe,
   ContactContainer,
@@ -43,11 +42,7 @@ export default function Contact({ language }) {
   }
 
   return (
-    <ContactContainer
-      as={motion.div}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-    >
+    <ContactContainer initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <span>{langData.subject}</span>
       <h1>{langData.h1}</h1>
       <FormContainer>

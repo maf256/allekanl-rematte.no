@@ -4,7 +4,6 @@ import Img from '../common/image/matematikklærer.jpg'
 
 import { Data } from '../common/Data'
 import { Main, Div, Card } from './Home.styled.js'
-import { motion } from 'framer-motion'
 import SocialShare from '../SocialShareButtons.js'
 import SocialMediaLinks from '../SocialMediaLinks.js'
 
@@ -14,7 +13,7 @@ export default function Home({ language, theme }) {
   return (
     <>
       <Main aria-label="Introduction">
-        <Card as={motion.div} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <Card>
           <Image
             src={Img}
             alt="Webutvikler & Webdesign - Majid Askarifarsangi"
