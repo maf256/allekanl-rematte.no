@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
-import Img from '../common/image/webutvikler.webp'
+import Img from '../common/image/matematikklærer.jpg'
+
 import { Data } from '../common/Data'
 import { Main, Div, Card } from './Home.styled.js'
 import { motion } from 'framer-motion'
