@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import Img from '../common/image/matematikklærer.jpg'
+import Img from '../common/image/matematikklærer.webp'
 
 import { Data } from '../common/Data'
 import { Main, Div, Card } from './Home.styled.js'
@@ -16,7 +16,7 @@ export default function Home({ language, theme }) {
         <Card>
           <Image
             src={Img}
-            alt="Webutvikler & Webdesign - Majid Askarifarsangi"
+            alt="matematikklærer - Johny Alnæs"
             placeholder="blur"
             priority={true}
           />
