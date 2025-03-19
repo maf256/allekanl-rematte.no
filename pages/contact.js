@@ -5,6 +5,7 @@ import Head from 'next/head'
 
 export default function about({ language }) {
   const seoData = SEO.contact
+  console.log(seoData)
 
   return (
     <>
