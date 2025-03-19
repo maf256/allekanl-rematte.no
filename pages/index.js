@@ -24,10 +24,10 @@ export default function Homepage({ language }) {
   const personStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Majid Askarifarsangi',
-    url: 'https://sitedesign.no',
+    name: 'Johny Alnæs',
+    url: 'https://allekanlærematte.no',
     image: seoData.structuredData.image,
-    jobTitle: 'Webutvikler',
+    jobTitle: 'Matematikkunderviser',
     address: seoData.structuredData.address,
     sameAs: seoData.structuredData.sameAs,
   }
@@ -38,7 +38,7 @@ export default function Homepage({ language }) {
         <title>{seoData.title}</title>
         <meta name="description" content={seoData.description} />
         <meta name="keywords" content={seoData.keywords} />
-        <meta name="author" content="Majid Askarifarsangi" />
+        <meta name="author" content="Johny Alnæs" />
         <meta name="robots" content="index, follow" />
         {/* Open Graph SEO tags */}
         <meta property="og:title" content={seoData.title} />
@@ -47,12 +47,12 @@ export default function Homepage({ language }) {
         <meta property="og:image:alt" content={seoData.imageAlt} />
         <meta property="og:image:width" content="452" />
         <meta property="og:image:height" content="452" />{' '}
-        <meta property="og:url" content="https://sitedesign.no" />
+        <meta property="og:url" content="https://allekanlærematte.no" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content={language ? 'en_US' : 'nb'} />
-        <meta property="og:site_name" content="Sitedesign" />
+        <meta property="og:site_name" content="allekanlærematte" />
         {/* Canonical URL */}
-        <link rel="canonical" href="https://sitedesign.no" />
+        <link rel="canonical" href="https://allekanlærematte.no" />
         {/* Structured Data (LocalBusiness) */}
         <script
           type="application/ld+json"
@@ -99,7 +99,7 @@ export default function Homepage({ language }) {
         <meta name="twitter:description" content={seoData.description} />
         <meta
           name="twitter:image"
-          content="https://sitedesign.no/majid-askarifarsangi-webutvikler-oslo.webp"
+          content="https://allekanlærematte.no/matematikklærer.webp"
         />
       </Head>
 

@@ -128,7 +128,7 @@ export const SEO = {
       name: 'Alle Kan Lære Matte',
       url: 'https://allekanlærematte.no',
       logo: 'https://allekanlærematte.no/logo.png',
-      image: 'https://allekanlærematte.no/matteundervisning.jpg',
+      image: 'https://allekanlærematte.no/matematikklærer.jpg',
       description:
         'Alle Kan Lære Matte tilbyr undervisning og veiledning i matematikk med Johny Alnæs. Perfekt for elever på alle nivåer som ønsker bedre mestring og forståelse.',
       address: {
@@ -166,7 +166,7 @@ export const SEO = {
       '@type': 'Person',
       name: 'Johny Alnæs',
       url: 'https://allekanlærematte.no/om',
-      image: 'https://allekanlærematte.no/johny.jpg',
+      image: 'https://allekanlærematte.no/matematikklærer.jpg',
       jobTitle: 'Matematikkunderviser',
       worksFor: {
         '@type': 'EducationalOrganization',
