@@ -13,10 +13,10 @@ export default function Homepage({ language }) {
     description: seoData.description,
     author: {
       '@type': 'Person',
-      name: 'Majid Askarifarsangi',
+      name: 'Johny Alnæs',
       jobTitle: 'Webutvikler',
       image: seoData.structuredData.image,
-      url: 'https://sitedesign.no',
+      url: 'https://allekanlærematte.no',
       sameAs: seoData.structuredData.sameAs,
     },
   }
