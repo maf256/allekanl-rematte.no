@@ -60,7 +60,7 @@ export default function Page ()  {
           id="contact" 
           className="w-full bg-white px-6 py-12 items-center justify-center min-h-[90vh] flex">
           <div className="w-full mx-auto min-w-0 lg:min-w-[72rem]">
-            <h3 className="text-3xl font-semibold mb-6 text-center">{langData.h2}</h3>
+            <h2 className="text-3xl font-semibold mb-6 text-center">{langData.h2}</h2>
 
             <form ref={form} onSubmit={onSubmit} className="space-y-6 bg-white p-6 rounded-lg shadow-md">
               <div>
