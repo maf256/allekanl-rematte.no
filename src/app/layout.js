@@ -12,6 +12,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+  export const metadata = {
+    title: "Johny Alnæs - Erfaren lærer i matematikk - Privatlærer i matematikk",
+    description: "Johny Alnæs - Erfaren lærer i matematikk - Privatlærer i matematikk",
+  };
+
 
 export default function RootLayout({ children }) {
   return (
