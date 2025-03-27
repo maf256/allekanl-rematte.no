@@ -55,9 +55,11 @@ export default function Page ()  {
   }
 
   return (
-    <main className="flex justify-center items-center min-h-screen">
-        <section id="contact" className="w-full bg-white px-6 py-12">
-          <div className="max-w-4xl mx-auto">
+    <main>
+        <section 
+          id="contact" 
+          className="w-full bg-white px-6 py-12 items-center justify-center min-h-[90vh] flex">
+          <div className="w-full mx-auto min-w-0 lg:min-w-[72rem]">
             <h3 className="text-3xl font-semibold mb-6 text-center">{langData.h2}</h3>
 
             <form ref={form} onSubmit={onSubmit} className="space-y-6 bg-white p-6 rounded-lg shadow-md">
