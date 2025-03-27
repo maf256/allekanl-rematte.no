@@ -1,0 +1,6 @@
+# Allow all bots full access
+User-agent: *
+Disallow:
+
+# Specify sitemap location
+Sitemap: https://xn--allekanlrematte-4lb.no/sitemap.xml
