@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>Johny Alnæs - Erfaren lærer i matematikk - Privatlærer i matematikk</title>
         <meta name="title" content="Johny Alnæs - Erfaren lærer i matematikk - Privatlærer i matematikk" />
-        <meta
+        <meta name="google-site-verification" content="uUkzhnQnbMEnagS1sWqRPoLTKbrsRhn-Gni57a6vP6o" /><meta
           name="description"
           content="Meet Johny Alnæs, a dedicated educator with over 15 years of experience in teaching mathematics and science. Learn more about his teaching philosophy and background."
         />
