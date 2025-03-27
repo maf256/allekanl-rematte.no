@@ -7,10 +7,6 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
   export const metadata = {
     title: "Johny Alnæs - Erfaren lærer i matematikk - Privatlærer i matematikk",
@@ -21,7 +17,7 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}  min-h-screen bg-gray-50 text-gray-800 antialiased`}>
+      <body className={`${geistSans.variable}  min-h-screen bg-gray-50 text-gray-800 antialiased`}>
      
         <nav className="w-full bg-white shadow-sm fixed top-0 left-0 z-10 bg-gray-50 text-gray-800">
           <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">

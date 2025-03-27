@@ -42,11 +42,13 @@ export default function Home() {
           <div className="w-full md:w-1/2 flex justify-center">
             <Image
               src="/matematikklærer.webp"
-              alt="Portrait of Johny Alnæs, an experienced teacher"
-              width={300}
-              height={300}
+              alt="Johny Alnæs Matematikklærer"
+              width={400}
+              height={400}
               className="rounded-2xl shadow-2xl"
               priority
+              sizes="(max-width: 768px) 100vw, 300px"
+
             />
           </div>
           <div className="w-full md:w-1/2 text-center md:text-left">
