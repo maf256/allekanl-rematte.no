@@ -51,6 +51,11 @@ export default function Home() {
             <p className="text-2xl md:text-xl leading-relaxed">Jeg møter eleven med en kartlegging av kunnskaper. Det må skje i en atmosfære av tillit og respekt slik at eleven kjenner seg tatt vare på. Jeg må finne ut hvor eleven mistet følelsen av mestring. Når man faller lasset og ikke skjønner mer fortsetter man fallet til man gir opp.</p>
             <p className="text-2xl md:text-xl leading-relaxed">Jeg har siden 2010 hjulpet mange elever til mestring, og de har fått en karakter de er fornøyd med.</p>
             <p className="text-2xl md:text-xl leading-relaxed">Pris. 400 kr pr. 50min.</p>
+            <p className="text-2xl md:text-xl leading-relaxed mt-6">
+              Telefon: <a href="tel:+4745208877" className="text-blue-600 hover:underline">45 20 88 77</a><br />
+              E-post: <a href="mailto:johny.alnas@gmail.com" className="text-blue-600 hover:underline">johny.alnas@gmail.com</a>
+            </p>
+
           </div>
         </section>
 
