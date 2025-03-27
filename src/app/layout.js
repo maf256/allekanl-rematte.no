@@ -16,7 +16,7 @@ const geistSans = Geist({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="no">
       <body className={`${geistSans.variable}  min-h-screen bg-gray-50 text-gray-800 antialiased`}>
      
         <nav className="w-full bg-white shadow-sm fixed top-0 left-0 z-10 bg-gray-50 text-gray-800">
